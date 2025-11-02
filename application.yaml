@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: Baskidemo-app
+  name: baskidemo-app
   namespace: argocd
 spec:
   project: default
