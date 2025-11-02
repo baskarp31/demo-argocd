@@ -14,7 +14,7 @@ spec:
     namespace: baskiargodemo
   syncPolicy:
     syncOptions:
-      - syncTimeout=300s
+    - syncTimeout=300s
     automated:
       prune: true
       selfHeal: true
