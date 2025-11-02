@@ -13,6 +13,8 @@ spec:
     server: https://kubernetes.default.svc
     namespace: baskiargodemo
   syncPolicy:
+    syncOptions:
+      - syncTimeout=300s
     automated:
       prune: true
       selfHeal: true
