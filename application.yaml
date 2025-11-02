@@ -11,7 +11,7 @@ spec:
     path: k8s-manifest
   destination:
     server: https://kubernetes.default.svc
-    namespace: demo
+    namespace: baskiargodemo
   syncPolicy:
     automated:
       prune: true
